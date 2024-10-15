@@ -1,0 +1,17 @@
+
+	# Requirement Clarification (to build an application, first discuss about Req. Clarification) :- 5 min
+
+		- Features  (discuss about what are the features they want)
+
+		- Tech Stack
+		      - Redux (for state managemnet)
+		      - Tailwind (for styling UI layer)
+		      - react-router-dom (for routing)
+		      - parcel(for bundling)
+		      - jest and react-testing-lib(for testing)
+
+
+
+	# Planning (diccuss about applicaton strcture and components) 
+
+		- Discuss about video data, how will i get, do i have to hardcoded or through API to fetch data

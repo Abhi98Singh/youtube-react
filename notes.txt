@@ -1,0 +1,46 @@
+ 
+ 
+ $  - We used create-react-app package to build our application, but if we wanr to mke large appliavtion so we can also use
+       parcel as a bundler for customaization or we can configure our app according to our requorement
+
+
+     $ - We used tailwind for styling, so we installed and configure it
+
+        - # We'll use Grid system   => grid grid-flow-col  : col-span-1 & col-span-11
+
+
+     $ - For state management, we will use RTK
+
+          - install both libraraies
+          - craete a store and configure it 
+          - create a slice and and export it and give it to store
+          - provide the store to app root comp
+
+          - to check whther check the store is working or not either use useSelector or use extension
+
+          - dispatch an action in haeder.js and put a handler on onclick event
+          - for subscriping use useSelector hook in SideBar.js
+          - we will do early return, control will not go to next line
+
+          => What is happening :- "when we click on this humburger menu btn, action is dispatched which calls a 
+                                  reducer function which modifies the slice of our Redux store and since our
+                                  SideBar comp is subscribed to our Redux store, it automagically updates"
+
+
+    $ - We will make a button list using map funnction
+
+
+
+    $ - We will use free youtube Videos API to fetch and display Videos data
+         - Lets use most popular videos list and copy http address
+
+        - then generate a google api key using youtube api key auth
+
+
+    $ - We will make an API call in VideoContainer comp using useEffect
+
+
+    
+
+
+  
